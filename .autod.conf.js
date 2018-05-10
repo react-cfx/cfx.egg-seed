@@ -1,22 +1,2 @@
-'use strict';
-
-module.exports = {
-  write: true,
-  prefix: '^',
-  plugin: 'autod-egg',
-  test: [
-  ],
-  dep: [
-    'egg',
-    'esm'
-  ],
-  devdep: [
-    'egg-bin',
-    'autod',
-    'autod-egg'
-  ],
-  exclude: [
-    './dist',
-  ],
-};
-
+require('cfx.require-plugin-coffee/register')();
+module.exports = require('./.autod.conf.coffee').default;

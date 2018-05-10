@@ -1,6 +1,7 @@
 {
   "name": "cfx.egg-seed",
   "scripts": {
+    "clean": "rm -rf ./app ./config ./app.js ./logs ./public ./run ./src",
     "start": "egg-scripts start --daemon",
     "stop": "egg-scripts stop",
     "dev": "egg-bin dev",
@@ -10,6 +11,7 @@
   "devDependencies": {
     "autod": "^3.0.1",
     "autod-egg": "^1.1.0",
+    "cfx.require-plugin-coffee": "^0.2.6",
     "cfx.simple-build-tool": "^0.0.12",
     "egg-bin": "^4.7.0"
   },
