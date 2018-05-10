@@ -1,0 +1,35 @@
+# OSX
+#
+.DS_Store
+
+# Android/IJ
+#
+.idea
+
+# node.js
+#
+node_modules/
+npm-debug.log*
+
+dist
+build
+dest
+.tmp
+tmp
+
+yarn.lock
+yarn*log
+.yarn*
+
+.nyc*
+
+/src
+
+/app.js
+
+/public
+/app
+/config
+/utils
+/logs
+/run
